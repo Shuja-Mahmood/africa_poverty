@@ -78,6 +78,6 @@ def main(survey_path: str, out_dir: str):
 
 
 if __name__ == '__main__':
-    survey_path = '../data/dhs_wealth_index.csv'
-    out_dir = '../data/dhs_surveys/'
+    survey_path = 'data/dhs_wealth_index.csv'
+    out_dir = 'data/dhs_surveys/'
     main(survey_path=survey_path, out_dir=out_dir)
